@@ -1,0 +1,132 @@
+<html>
+<head>
+	<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script src="js.js"></script>
+</head>	
+<body>
+	<div class="some_text">My Pizza Name</div>
+	<svg width="550" height="550" viewBox="0 0 450 450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<defs>
+  	<pattern id="img1" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="mypizza.png" x="-80" y="-49" width="600" height="600" style="transform: rotate(4deg)"/>
+  	</pattern>
+  	<pattern id="img2" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="mypizza.png" x="-109" y="-50" width="600" height="600" style="transform: rotate(1deg)"/>
+  	</pattern>
+  	<pattern id="img3" patternUnits="userSpaceOnUse" width="600" height="600" >
+    	<image xlink:href="mypizza.png" x="-125" y="-75" width="600" height="600" style="transform: rotate(-2deg)" />
+  	</pattern>
+  	<pattern id="img4" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="mypizza.png" x="-85" y="-115" width="600" height="600" style="transform: rotate(0deg)"/>
+  	</pattern>
+  	<pattern id="img5" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="mypizza.png" x="-53" y="-122" width="600" height="600" style="transform: rotate(3deg)"/>
+  	</pattern>
+  	<pattern id="img6" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="mypizza.png" x="-57" y="-75" width="600" height="600" style="transform: rotate(-4deg)"/>
+  	</pattern>
+  	<pattern id="img7" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="mypizza.png" x="-53" y="-40" width="600" height="600" style="transform: rotate(-4deg)"/>
+  	</pattern>
+  	<pattern id="img8" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="mypizza.png" x="-75" y="-20" width="600" height="600" style="transform: rotate(-2deg)"/>
+  	</pattern>
+  	<pattern id="plate" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="http://pngimg.com/upload/plate_PNG5330.png" x="-24" y="-21" width="500" height="500" />
+  	</pattern>
+  	<pattern id="plate2" patternUnits="userSpaceOnUse" width="600" height="600">
+    	<image xlink:href="plate2.png" x="-24" y="-21" width="500" height="500" />
+  	</pattern>
+	</defs>
+
+<circle cx="225" cy="225" r="225" fill="url(#plate2)"></circle>
+
+<path stroke-width="3" stroke="#fff" stroke-miterlimit="2" fill="url(#img1)" class="pieSegment1" d="M 225 2 A 223 223 0 0 1 382.6847971038084 67.31517269460969 L 225 225 Z"></path>
+<path stroke-width="3" stroke="#fff" stroke-miterlimit="2" fill="url(#img2)" class="pieSegment2" d="M 382.6847971038084 67.31517269460969 A 223 223 0 0 1 447.9999999999959 224.99995728851323 L 225 225 Z"></path>
+<path stroke-width="3" stroke="#fff" stroke-miterlimit="2" fill="url(#img3)" class="pieSegment3" d="M 447.9999999999959 224.99995728851323 A 223 223 0 0 1 382.6848575069665 382.6847669022207 L 225 225 Z"></path>
+<path stroke-width="3" stroke="#fff" stroke-miterlimit="2" fill="url(#img4)" class="pieSegment4" d="M 382.6848575069665 382.6847669022207 A 223 223 0 0 1 225.00008542297354 447.99999999998363 L 225 225 Z"></path>
+<path stroke-width="3" stroke="#fff" stroke-miterlimit="2" fill="url(#img5)" class="pieSegment5" d="M 225.00008542297354 447.99999999998363 A 223 223 0 0 1 67.31526329937284 382.68488770853685 L 225 225 Z"></path>
+<path stroke-width="3" stroke="#fff" stroke-miterlimit="2" fill="url(#img6)" class="pieSegment6" d="M 67.31526329937284 382.68488770853685 A 223 223 0 0 1 2.000000000036806 225.00012813446043 L 225 225 Z"></path>    
+<path stroke-width="3" stroke="#fff" stroke-miterlimit="2" fill="url(#img7)" class="pieSegment7" d="M 2.000000000036806 225.00012813446043 A 223 223 0 0 1 67.31508208989845 67.31529350097219 L 225 225 Z"></path>
+<path stroke-width="3" stroke="#fff" stroke-miterlimit="2" fill="url(#img8)" class="pieSegment8" d="M 67.31508208989845 67.31529350097219 A 223 223 0 0 1 224.9998291540527 2.0000000000654268 L 225 225 Z"></path></svg>
+
+
+<div class="order pie1">
+	<li>Number 1</li>
+	<li>Number 2</li>
+	<li>Number 3</li>
+	<li>Number 4</li>
+	<li>Number 5</li>
+	<li>Number 6</li>
+</div>
+
+<div class="order pie2">
+	<li>Number 1</li>
+	<li>Number 2</li>
+	<li>Number 3</li>
+	<li>Number 4</li>
+	<li>Number 5</li>
+	<li>Number 6</li>
+</div>
+
+<div class="order pie3">
+	<li>Number 1</li>
+	<li>Number 2</li>
+	<li>Number 3</li>
+	<li>Number 4</li>
+	<li>Number 5</li>
+	<li>Number 6</li>
+</div>
+
+<div class="order pie4">
+	<li>Number 1</li>
+	<li>Number 2</li>
+	<li>Number 3</li>
+	<li>Number 4</li>
+	<li>Number 5</li>
+	<li>Number 6</li>
+</div>
+
+<div class="order pie5">
+	<li>Number 1</li>
+	<li>Number 2</li>
+	<li>Number 3</li>
+	<li>Number 4</li>
+	<li>Number 5</li>
+	<li>Number 6</li>
+</div>
+
+<div class="order pie6">
+	<li>Number 1</li>
+	<li>Number 2</li>
+	<li>Number 3</li>
+	<li>Number 4</li>
+	<li>Number 5</li>
+	<li>Number 6</li>
+</div>
+
+<div class="order pie7">
+	<li>Number 1</li>
+	<li>Number 2</li>
+	<li>Number 3</li>
+	<li>Number 4</li>
+	<li>Number 5</li>
+	<li>Number 6</li>
+</div>
+
+<div class="order pie8">
+	<li>Number 1</li>
+	<li>Number 2</li>
+	<li>Number 3</li>
+	<li>Number 4</li>
+	<li>Number 5</li>
+	<li>Number 6</li>
+</div>
+
+	
+</body>
+</html>

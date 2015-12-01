@@ -1,0 +1,59 @@
+body {
+  background-color: #e9efec;
+  background: url(bg.jpg) no-repeat;
+  background-size: cover;
+  font-family: "Oswald", "Helvetica Newe", Helvetica, sans-serif;
+}
+
+.some_text {
+  font-family: 'Indie Flower', cursive;
+  position: absolute;
+  left: 80%;
+  font-size: 35px;
+  color: darkorange;
+  padding-right: 20px;
+}
+
+svg {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  padding-top: 70px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+circle {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.pieSegment1,.pieSegment2,.pieSegment3,.pieSegment4,.pieSegment5,.pieSegment6,.pieSegment7, .pieSegment8:hover { 
+    cursor: pointer;
+
+}
+
+.pie1, .pie2, .pie3, .pie4 {
+  display: none;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+}
+
+.pie5, .pie6, .pie7, .pie8 {
+  display: none;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+}
+
+.order li {
+  padding-bottom: 150px;
+}
